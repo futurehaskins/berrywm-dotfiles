@@ -5,7 +5,7 @@ sxhkd -c ~/.config/berry/sxhkdrc &
 feh --bg-scale /usr/share/backgrounds/pine.jpg &
 picom --config ~/.config/picom/picom.conf &
 bash ~/.config/polybar/shapes/scripts/pywal.sh /usr/share/backgrounds/pine.jpg &
-bash ~/.config/polybar/launch.sh --shapes &
+bash ~/.config/polybar/launch.sh &
 pulseaudio &
 dunst &
 
@@ -37,4 +37,4 @@ berryc text_unfocus_color  eeeeee
 berryc smart_place "true"
 berryc draw_text   "true"
 berryc edge_lock   "true"
-berryc set_font    "Iosevka Nerd Font 11"
+berryc set_font    "Hack 11"
